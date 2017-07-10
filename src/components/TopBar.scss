@@ -1,0 +1,32 @@
+@import '../index.scss';
+
+.nav-bar {
+  border: 1px solid $secondary-color;
+  width: 100%;
+  left: 0;
+  margin: 0;
+  clear: both;
+  background: $primary-color;
+  height: 45px;
+  font-weight: 400;
+  font-size: .9em;
+  color: #fff;
+  line-height: 45px;
+}
+
+.cart-button {
+  position: relative;
+  .cart-indicator {
+    border-radius: 50%;
+    background-color: $secondary-text-color;;
+    color: $primary-text-color;;
+    width: 20px;
+    height: 20px;
+    margin-right: -5px;
+    margin-top: -5px;
+    position: absolute;
+    line-height: 20px;
+    top: 0;
+    right: 0;
+  }
+}

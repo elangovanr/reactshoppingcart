@@ -1,0 +1,33 @@
+@import '../index.scss';
+
+.product-container {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border: 2px solid #fff;
+  > img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .product-title {
+    min-height: 100px;
+    font-size: 1.2em;
+    color: $primary-text-color;
+    text-decoration: none;
+  }
+}
+
+.product-container:hover {
+  border: 1px solid #b3b3b3;
+  box-shadow: 1px 1px 1px 1px #b3b3b3;
+}
+
+.product {
+  text-decoration: none;
+  color: $primary-text-color;;
+  font-weight: 400;
+  font-size: .95em;
+
+}
