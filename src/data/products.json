@@ -73,6 +73,15 @@
       "desc": "F&N NutriWell Barley is freshly brewed from a special home recipe using carefully selected pearl barley and dried winter melon strips. Barley, a grain full of pure goodness, is commonly used in home-brews, to make that familiar barley drink or in soups. All natural, with no added preservatives and reduced in sugar, F&N NutriWell Barley is the great-tasting, 'healthier-choice' convenient beverage to cool you down in this tropical climate. Make drinking F&N NutriWell a daily enjoyment.",
       "measurement": "475ml",
       "image": "product8.jpg"
+    },
+    {
+      "name": "Magnolia fresh milk",
+      "price": "3.50",
+      "brand": "Magnolia",
+      "desc": "
+Magnolia fresh milk is 100-Percent pure fresh milk. Natural goodness now made possible in a wholesome way to keep you and your loved ones well-nourished. Enjoy the creaminess and freshness with every delicious sip of Magnolia fresh milk, your trusted choice. Does not come with free mug.",
+      "measurement": "1l",
+      "image": "product7.jpg"
     }
   ]
 }
