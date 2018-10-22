@@ -7,10 +7,10 @@ import "./AddToCart.css";
 
 const AddToCart = ({product, cart, onAddCart, onRemoveCart}) => {
 
-    let cartProduct = cart.find(p => p.id === product.id);
+    let cartItem = cart.find(p => p.id === product.id);
     let count = 0;
-    if (cartProduct)
-        count = cartProduct.count;
+    if (cartItem)
+        count = cartItem.count;
 
     let addtoCartButton = null;
     if (count === 0) {
@@ -22,7 +22,7 @@ const AddToCart = ({product, cart, onAddCart, onRemoveCart}) => {
                     onAddCart(product);
                 }}
             >
-                ADD TO CART
+                + ADD TO CART
             </button>
         );
     } else {
